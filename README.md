@@ -5,9 +5,10 @@
 
 Used tools:
 - Zsh
+- Wezterm
+- Starship
+
 - Zoxide
 - fzf
 - pyenv
-- Wezterm
-- Starship
 
