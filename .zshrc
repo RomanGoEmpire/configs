@@ -27,17 +27,15 @@ eval "$(pyenv init -)"
 
 
 # Alias
-
-# ubuntu only
-alias ll="ls -la --group-directories-first --color=auto"
-
 alias ll="ls -la --color=auto"
 alias c="clear"
 alias cd="z"
 
-alias wezterm='flatpak run org.wezfurlong.wezterm'
 alias zshconfig="nvim ~/.zshrc"
 alias weztermconfig="nvim ~/.config/wezterm/wezterm.lua"
 
 alias py="python3"
 alias src=" source ~/.init.sh"
+
+# Ubuntu only
+# alias wezterm='flatpak run org.wezfurlong.wezterm'
