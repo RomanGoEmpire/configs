@@ -1,0 +1,92 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  //"theme": "Ayu Mirage",
+  "vim_mode": false,
+  "relative_line_numbers": false,
+  "outline_panel": {
+    "dock": "right"
+  },
+  "auto_update": true,
+  "base_keymap": "VSCode",
+
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 17,
+  "buffer_font_weight": 700,
+
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/__pycache__",
+    "**/.pytest_cache"
+  ],
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true,
+      "delay_ms": 0
+    }
+  },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "disabled",
+    "background_coloring": "indent_aware"
+  },
+  "jupyter": {
+    "kernel_selections": {
+      "python": "virtualenv"
+    }
+  },
+
+  "languages": {
+    "Python": {
+      "format_on_save": "on",
+      "language_servers": ["pyright", "ruff"],
+      "formatter": [
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ]
+    }
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "performance.show_in_status_bar": true,
+  "project_panel": {
+    "button": false,
+    "dock": "left",
+    "git_status": true
+  },
+  "tab_bar": {
+    "show": false
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false
+  },
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_size": 18,
+  "ui_font_weight": 800
+}
